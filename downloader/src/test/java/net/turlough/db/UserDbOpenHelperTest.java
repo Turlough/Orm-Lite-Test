@@ -53,4 +53,12 @@ public class UserDbOpenHelperTest {
         assertEquals(user.getForename(), result.getForename());
     }
 
+    @Test
+    public void addMultipleUsers() throws Exception {
+
+        dao.create(new User("test1", "surname"));
+        dao.create(new User("test2", "surname"));
+        assertEquals(2, dao.countOf());
+    }
+
 }

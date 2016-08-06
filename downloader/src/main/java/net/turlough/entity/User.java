@@ -28,4 +28,14 @@ public class User {
     @DatabaseField
     private String surname;
 
+    public User() {
+
+    }
+
+    public User(String forename, String surname) {
+        this.forename = forename;
+        this.surname = surname;
+    }
+
+
 }
