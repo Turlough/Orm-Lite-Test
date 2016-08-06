@@ -1,0 +1,20 @@
+#
+# generated on 2016/08/06 01:21:54
+#
+# --table-start--
+dataClass=net.turlough.entity.User
+tableName=user
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=forename
+# --field-end--
+# --field-start--
+fieldName=surname
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
